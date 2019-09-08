@@ -7,8 +7,8 @@
 <meta name="description" content="" />
 <meta name="author" content="Maxim Sokhatsky" />
 <title>PI</title>
-<link rel="stylesheet" href="https://n2o.dev/blank.css?x=15" />
-<link rel="stylesheet" href="https://n2o.dev/zima.css?x=15" />
+<link rel="stylesheet" href="https://n2o.dev/blank.css" />
+<link rel="stylesheet" href="https://n2o.dev/zima.css" />
 <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
@@ -31,7 +31,7 @@
     <div>PI was dedicated to bench Erlang I/O and gen_server throughput.
       We end up with 100MB/s per actor Erlang Events recording.
     </div>
-    <br />
+    <br/>
     <div>
       15 SEP 2016 © <a href="https://5ht.co/license.htm">ISC LICENSE</a>
     </div>
@@ -108,7 +108,7 @@
     server(drain(Time), Parent, Name, State, Mod).
       </code>
     </figure>
-    <p>Here is happened computational emptiness and all sources of effects.<br />
+    <p>Here is happened computational emptiness and all sources of effects.<br/>
       You may think of <b>receive</b> as effectful suspended <b>case</b>.</p>
     <figure>
       <code>
